@@ -1,0 +1,56 @@
+2026-11-14T07:12:19.447573Z	Cloning repository...
+2026-11-14T07:12:23.107419Z	From https://github.com/kayrugold/the-daily-absurd
+2026-11-14T07:12:23.107816Z	 * branch            6677601093ab288b814f6940ca6fafccc8904f4e -> FETCH_HEAD
+2026-11-14T07:12:23.107954Z	
+2026-11-14T07:12:23.24653Z	HEAD is now at 6677601 feat: initialize project scaffold with Vite and Tailwind
+2026-11-14T07:12:23.246847Z	
+2026-11-14T07:12:23.289834Z	
+2026-11-14T07:12:23.290162Z	Using v2 root directory strategy
+2026-11-14T07:12:23.301531Z	Success: Finished cloning repository files
+2026-11-14T07:12:24.833084Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-11-14T07:12:24.833492Z	
+2026-11-14T07:12:24.962437Z	No Wrangler configuration file found. Continuing.
+2026-11-14T07:12:25.236329Z	Detected the following tools from environment: npm@10.9.9, nodejs@22.23.4
+2026-11-14T07:12:25.23981Z	Installing project dependencies: npm install --progress=false
+2026-11-14T07:12:42.434701Z	npm error code ERESOLVE
+2026-11-14T07:12:42.435042Z	npm error ERESOLVE could not resolve
+2026-11-14T07:12:42.435171Z	npm error
+2026-11-14T07:12:42.435224Z	npm error While resolving: vite@8.3.8
+2026-11-14T07:12:42.435282Z	npm error Found: esbuild@0.25.12
+2026-11-14T07:12:42.435348Z	npm error node_modules/esbuild
+2026-11-14T07:12:42.435435Z	npm error   dev esbuild@"^0.25.0" from the root project
+2026-11-14T07:12:42.435497Z	npm error
+2026-11-14T07:12:42.435558Z	npm error Could not resolve dependency:
+2026-11-14T07:12:42.435644Z	npm error peerOptional esbuild@"^0.27.0 || ^0.28.0" from vite@8.3.8
+2026-11-14T07:12:42.435708Z	npm error node_modules/vite
+2026-11-14T07:12:42.435754Z	npm error   vite@"^8.3.0" from the root project
+2026-11-14T07:12:42.435814Z	npm error   peer vite@"^5.2.0 || ^6 || ^7 || ^8" from @tailwindcss/vite@4.3.5
+2026-11-14T07:12:42.435867Z	npm error   node_modules/@tailwindcss/vite
+2026-11-14T07:12:42.435902Z	npm error     @tailwindcss/vite@"^4.3.3" from the root project
+2026-11-14T07:12:42.435937Z	npm error   1 more (@vitejs/plugin-react)
+2026-11-14T07:12:42.435971Z	npm error
+2026-11-14T07:12:42.436002Z	npm error Conflicting peer dependency: esbuild@0.28.2
+2026-11-14T07:12:42.436043Z	npm error node_modules/esbuild
+2026-11-14T07:12:42.436092Z	npm error   peerOptional esbuild@"^0.27.0 || ^0.28.0" from vite@8.3.8
+2026-11-14T07:12:42.436132Z	npm error   node_modules/vite
+2026-11-14T07:12:42.436164Z	npm error     vite@"^8.3.0" from the root project
+2026-11-14T07:12:42.436198Z	npm error     peer vite@"^5.2.0 || ^6 || ^7 || ^8" from @tailwindcss/vite@4.3.5
+2026-11-14T07:12:42.436228Z	npm error     node_modules/@tailwindcss/vite
+2026-11-14T07:12:42.43626Z	npm error       @tailwindcss/vite@"^4.3.3" from the root project
+2026-11-14T07:12:42.436298Z	npm error     1 more (@vitejs/plugin-react)
+2026-11-14T07:12:42.436337Z	npm error
+2026-11-14T07:12:42.436428Z	npm error Fix the upstream dependency conflict, or retry
+2026-11-14T07:12:42.4365Z	npm error this command with --force or --legacy-peer-deps
+2026-11-14T07:12:42.436561Z	npm error to accept an incorrect (and potentially broken) dependency resolution.
+2026-11-14T07:12:42.436607Z	npm error
+2026-11-14T07:12:42.436652Z	npm error
+2026-11-14T07:12:42.436697Z	npm error For a full report see:
+2026-11-14T07:12:42.436762Z	npm error /opt/buildhome/.npm/_logs/2026-11-14T07_12_25_794Z-eresolve-report.txt
+2026-11-14T07:12:42.436807Z	npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-11-14T07_12_25_794Z-debug-0.log
+2026-11-14T07:12:42.490731Z	Error: Exit with error code: 1
+2026-11-14T07:12:42.49108Z	    at ChildProcess.<anonymous> (/snapshot/dist/run-build.js)
+2026-11-14T07:12:42.49124Z	    at Object.onceWrapper (node:events:652:26)
+2026-11-14T07:12:42.491343Z	    at ChildProcess.emit (node:events:537:28)
+2026-11-14T07:12:42.491443Z	    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2026-11-14T07:12:42.496393Z	Failed: build command exited with code: 1
+2026-11-14T07:12:43.357775Z	Failed: error occurred while running build command
