@@ -1,0 +1,6 @@
+{
+  "name": "The Daily Absurd",
+  "description": "A living satire magazine with illustrated covers that move and interactive animated comedy sketches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
